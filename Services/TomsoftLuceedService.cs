@@ -28,7 +28,7 @@ namespace TomsoftLuceed.Services
             {
                 string content = "";
 
-                var url = $"http://apidemo.luceed.hr/datasnap/rest/artikli/GrupaArtiklaNaziv/{partOfName}";
+                var url = $"http://apidemo.luceed.hr/datasnap/rest/artikli/naziv/{partOfName}";
 
                 var httpClient = _httpClientFactory.CreateClient("LuceedApiClient");
 
